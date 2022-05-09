@@ -35,3 +35,12 @@ Different Scheduling Algorithms...
      * Priority Queuing.
      * Multilevel Queue Scheduling.
      * Multi level Feedback Queue (MLFQ).
+
+PAGING...
+
+paging is another memory skill that avoid external fragmentation and the need for compacting where as segmentation does not.
+It also solves the considerable problem of fitting memory chunks of varying size on to the backing stores.
+
+The basic method for implementing paging involves bracking physical memory into fixed size blocks called 'frames'.
+And bracking logical memory into blocks of same size is called 'pages'.
+
