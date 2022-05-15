@@ -1,3 +1,5 @@
+//Paging In Operating System.
+
 #include<stdio.h>
 #include<math.h>
 
