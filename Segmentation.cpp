@@ -1,3 +1,6 @@
+// A process is divided into Segments. The chunks that a program is divided into which are not necessarily all of the same sizes are called segments. 
+// Segmentation gives user’s view of the process which paging does not give.
+
 #include<stdio.h>
 #include<math.h>
 
