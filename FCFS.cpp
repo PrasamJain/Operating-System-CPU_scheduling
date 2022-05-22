@@ -1,3 +1,17 @@
+//FCFS CPU_Scheduling.
+
+//First in, first out (FIFO), also known as first come, first served (FCFS), is the simplest Processes scheduling algorithm. 
+//FIFO/FCFS simply queues processes in the order that they arrive in the ready queue.
+//In this algorithm, the process that comes first will be executed first and next process starts only after the previous gets fully executed. 
+//Our task is to find average waiting time and average turn around time using FCFS scheduling algorithm. 
+
+//IMPORTANT FORMULA's : -
+/*	Completion Time: Time at which process completes its execution.
+	Turn Around Time(T.A.T): Completion Time – Arrival Time
+	Waiting Time(W.T): Turn Around Time – Burst Time.   */
+
+// Using this approach the Avg TAT for the System is high.So, its create a problem which is known as "CONVOY EFFECT".(Resolve using Shortest-Job-First Algo)
+
 #include<stdio.h>
 #include<stdlib.h>
 
