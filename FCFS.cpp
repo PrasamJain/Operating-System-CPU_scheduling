@@ -12,6 +12,8 @@
 
 // Using this approach the Avg TAT for the System is high.So, its create a problem which is known as "CONVOY EFFECT".(Resolve using Shortest-Job-First Algo)
 
+/* ------------------------------------------------------   LET'S START OUR C/C++ PROGRAM   ----------------------------*/
+
 #include<stdio.h>
 #include<stdlib.h>
 
