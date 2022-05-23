@@ -1,3 +1,5 @@
+//page replacement algorithm..
+
 #include <stdio.h>
 int main(){
     int i = 0, j = 0, count = 0, size, n, str[100], flag = 1;
